@@ -15,7 +15,7 @@ You can chose between two options,
 
 An empty dataset might be useful if you wanna reserve a DOI for a later time, but usually you'll use option 1 if you already have you're dataset available. In this case you can select your file (e.g. a single file or an archive like .zip, .tar, .tgz, .tar.gz., .tar.bz2) or drag-n-drop the file to the upload field. 
 
-.. NOTE:: Data formats
+.. NOTE:: 
     Your data should be formatted in a proper way. Note that everyone who will use your data in future needs as many information as you can give for reusing the data. Therefore you should define your data with proper metadata following well-known conventions (e.g. cf convenctions etc.), a common file format (e.g. .nc, .h5, .csv), a proper naming (e.g. ``<modelname/campaign>_<device/sensor/version>_<variable>_<date/timerange>.<datatyp>``) and some standards following the `FAIR Data Principles <https://www.go-fair.org/fair-principles/>`_. The more information you can share the more is the increases of value of your data set!
 
 .. figure:: /images/radar4kit_create_dataset_2.png
@@ -28,7 +28,7 @@ You can choose to optionally unpack the archive-files during the upload (Figure 
 
 You can also choose the checksum option (Figure 2.4). Checksum is a MD5 hash value, representing the number of bits in a transmission message and is used to detect high-level erros within data transmission. Checksum is basically used to detect data corruption errors and verify overall data integrity. So if yo haven't calculated a checksum yet, you can chose "calculate automatically" for making sure, your dataset has not been accidentally altered or corrupted during the publishing process. 
 
-.. DANGER:: Big file sizes
+.. DANGER:: 
     If you plan to upload several GBs of data, calculating the checksum via browser is NOT recommended since it will take a lot of time!
 
 .. figure:: /images/radar4kit_edit_metadata_1.png
