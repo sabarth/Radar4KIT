@@ -25,10 +25,3 @@ how to :ref:`installation` the project.
    Content/nextsteps
    Content/kitopen
    Content/appendix
-
-.. toctree::
-   :maxdepth: 2
-   :hidden:
-   :caption: Contribute:
-
-   Contribute/howto
