@@ -1,8 +1,10 @@
-Template for the Read the Docs tutorial
+Read the Docs for usage of Radar4KIT 
 =======================================
 
-This GitHub template includes fictional Python library
-with some basic Sphinx docs.
+This is the repository for the `Radar4KIT <https://radar.kit.edu>`_ repository at `KIT <https://kit.edu>`_ .
+
+You can find the "How to contribute to this RDT" wihtin the documentation itself. Feel free to add some important notes and use the docDev branch to contribute. 
+
 
 Read the tutorial here:
 
