@@ -3,6 +3,7 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
-name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
+name = "Radar4KIT"
+authors = [{name = "Manuel Schmidberger", email = "manuel.schmidberger@kit.edu"}]
+copyright = "2022, Manuel Schmidberger"
 dynamic = ["version", "description"]

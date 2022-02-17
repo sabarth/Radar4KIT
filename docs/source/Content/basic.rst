@@ -16,8 +16,6 @@ Registration and user profiles
 Since RADAR4KIT is an online service it can be used exclusively via the Internet. All KIT researchers can log in to RADAR4KIT via their KIT account (Shibboleth) using 
 the web frontend of `RADAR4KIT <www.radar.kit.edu>`_. In addition, further accounts for KIT-externals can be created in special cases. 
 
-.. image:: /images/radar4kit_edit_metadata_1.png
-
 
 RADAR4KIT usage and numbers
 ===========================
