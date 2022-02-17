@@ -6,12 +6,9 @@ If you find any mistakes in this guide or if you have any suggestions for improv
 feel free send an email to `Manuel Schmidberger <manuel.schmidberger@kit.edu?subject=RADAR4KIT%20documentation%20file>`_.
 
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
-
 .. note::
 
-   This project is under active development.
+   This documentation is under active construction. If there are some issues, misstackes or contributions, send an email to `Manuel Schmidberger <manuel.schmidberger@kit.edu?subject=RADAR4KIT%20documentation%20file>`_.
 
 .. toctree::
    :maxdepth: 2
