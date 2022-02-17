@@ -1,12 +1,10 @@
 Welcome to Lumache's documentation!
 ===================================
 
-**Lumache** (/lu'make/) is a Python library for cooks and food lovers
-that creates recipes mixing random ingredients.
-It pulls data from the `Open Food Facts database <https://world.openfoodfacts.org/>`_
-and offers a *simple* and *intuitive* API.
+This is a short and basic introduction into the `RADAR4KIT <https://radar.kit.edu>`_, Research Data Repository for `KIT <https://kit.edu>`_.
+If you find any mistakes in this guide or if you have any suggestions for improvement or something important is missing, please
+feel free send an email to `Manuel Schmidberger <manuel.schmidberger@kit.edu?subject=RADAR4KIT%20documentation%20file>`_.
 
-Lumache has its documentation hosted on Read the Docs.
 
 Check out the :doc:`usage` section for further information, including
 how to :ref:`installation` the project.
@@ -15,10 +13,22 @@ how to :ref:`installation` the project.
 
    This project is under active development.
 
-Contents
---------
+.. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Content:
+
+   Content/basic
+   Content/usage
+   Content/datapackage
+   Content/metadata
+   Content/nextsteps
+   Content/kitopen
+   Content/appendix
 
 .. toctree::
+   :maxdepth: 2
+   :hidden:
+   :caption: Contribute:
 
-   usage
-   api
+   Contribute/howto
