@@ -1,5 +1,5 @@
-Welcome to Lumache's documentation!
-===================================
+Welcome to the Radar4KIT documentation wiki of the IMK
+======================================================
 
 This is a short and basic introduction into the `RADAR4KIT <https://radar.kit.edu>`_, Research Data Repository for `KIT <https://kit.edu>`_.
 If you find any mistakes in this guide or if you have any suggestions for improvement or something important is missing, please
