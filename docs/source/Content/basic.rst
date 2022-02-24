@@ -4,7 +4,7 @@ Basic information about RADAR4KIT
 RADAR4KIT allows you to compile research data from completed scientific studies and projects into data packages, 
 describe them with metadata, store and archive them permanently, or make them publicly accessible as needed. Published data are assigned a persistent 
 identifier (DOI) and can thus be found internationally and are also referenced in `KITopen <https://www.bibliothek.kit.edu/english/kitopen.php>`_ . 
-RADAR4KIT represents a generic offer of KIT in addition to the established subject repositories, which can be found e.g. in [re3data.org](re3data.org).
+RADAR4KIT represents a generic offer of KIT in addition to the established subject repositories, which can be found e.g. in `re3data.org <https://re3data.org>`_.
 
 The operator is the `Karlsruhe Institute of Technology <https://kit.edu>`_ (KIT). RADAR4KIT is based on the `RADAR <https://radar.products.fiz-karlsruhe.de/en>`_ 
 service offered by FIZ Karlsruhe. The data is stored exclusively on KIT's IT infrastructure at the Steinbuch Centre for Computing (SCC). 
