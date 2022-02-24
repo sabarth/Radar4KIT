@@ -1,11 +1,59 @@
 Edit metadata
 +++++++++++++
-Once you've uploaded your file or archive, you'll now be able to edit the metadata by clicking the "Edit Metadata" button (Figure 3.2) on the right side. There you find a bunch of field which you have to fill out (All flields marked with a * are crucial and have to be filled out!). 
+Once you've uploaded your file or archive, you'll now be able to edit the metadata by clicking the "Edit Metadata" button (Figure 3.2) on the right side. There you find a bunch of field which you have to fill out (All flields marked with a * are crucial and have to be filled out!). But first of all, some basic information about the metadata.
 
 .. figure:: /images/radar4kit_edit_metadata_3.png
     :width: 100 %
 
     *Figure 5: Edit metadata form*
+
+One central task in RADAR is the creation of a metadata schema that will provide both interdisciplinary, centralized record of the research data archived and published in RADAR, and data archived and published in RADAR as well as fulfilling the subject-specific requirements for searching and subsequent use of these data. The following metadata profile comprises 10 mandatory fields, which together represent the general, descriptive part of the profile, as well as 13 optional fields, which also include the subject-specific descriptions of the datasets. 
+
+.. important::
+    The mandatory fields of the metadata profile contain the basic requirements for DOI registration according to the `DataCite metadata schema <https://schema.datacite.org/>`_.
+
+The following table gives an overview about the 10 mendatory fields:
+
++---+---+---+
+| **ID  | Element  | XML**  |
++===+===+===+
+| **1.  | identifier**  | <identifier>  |
+| 1.1  |identifierType   | <identifierType>  |
++===+===+===+
+| **2.  | creator** (e.g. authors) | <creator>   |
+| 2.1  | creator name  |  <creatorName> |
+| 2.1.1  | given name  | <givenName>  |
+| 2.1.2  | family name  | <familyName>  |
+| 2.2  |  name identifier (ID) | <nameIdentifier>   |
+| 2.2.1  | name identifier scheme (name of ID)  | <nameIdentifierScheme>  |
+| 2.2.2  | scheme URI  | <schemeURI>  |
+| 2.3  | <creator affiliation (Institute)>  | <creatorAffiliation>  |
++===+===+===+
+| **3. | title** |<title> | 
++===+===+===+
+| **4. | publisher** (Institute) | <publisher> | 
++===+===+===+
+| **5. | production year** (date of data creation) | <productionYear> | 
++===+===+===+
+| **6. | publication year** (date of data publication) | <publicationYear> | 
++===+===+===+
+| **7. | subject area** (e.g. Meteorology, Atmospheric Science etc.) | <subjectArea> | 
+| 7.1| controlled subject area | <controlledSubjectAreaName> | 
+| 7.2 | additional subject area (further specs) | <additionalSubjectAreaName> | 
++===+===+===+
+| **8. | resource** (type of data) | <resource> | 
+| 8.1 | resource type | <resourceType> | 
++===+===+===+
+|**9.| rights** (license) | <rights> | 
+|9.1| controlled rights | <controlledRights> | 
+|9.2| additional rights  | <additionalRights> | 
++===+===+===+
+|**10. | rightsholder** | <rightsholder> | 
++---+---+---+
+
+
+
+
 
 Persistent identifier
 =====================
