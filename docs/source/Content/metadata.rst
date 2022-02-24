@@ -12,59 +12,21 @@ One central task in RADAR is the creation of a metadata schema that will provide
 .. important::
     The mandatory fields of the metadata profile contain the basic requirements for DOI registration according to the `DataCite metadata schema <https://schema.datacite.org/>`_.
 
-The following table gives an overview about the 10 mendatory fields:
 
-+---+---+---+
-| **ID  | Element  | XML**  |
-+===+===+===+
-| **1.  | identifier**  | <identifier>  |
-| 1.1  |identifierType   | <identifierType>  |
-+===+===+===+
-| **2.  | creator** (e.g. authors) | <creator>   |
-| 2.1  | creator name  |  <creatorName> |
-| 2.1.1  | given name  | <givenName>  |
-| 2.1.2  | family name  | <familyName>  |
-| 2.2  |  name identifier (ID) | <nameIdentifier>   |
-| 2.2.1  | name identifier scheme (name of ID)  | <nameIdentifierScheme>  |
-| 2.2.2  | scheme URI  | <schemeURI>  |
-| 2.3  | <creator affiliation (Institute)>  | <creatorAffiliation>  |
-+===+===+===+
-| **3. | title** |<title> | 
-+===+===+===+
-| **4. | publisher** (Institute) | <publisher> | 
-+===+===+===+
-| **5. | production year** (date of data creation) | <productionYear> | 
-+===+===+===+
-| **6. | publication year** (date of data publication) | <publicationYear> | 
-+===+===+===+
-| **7. | subject area** (e.g. Meteorology, Atmospheric Science etc.) | <subjectArea> | 
-| 7.1| controlled subject area | <controlledSubjectAreaName> | 
-| 7.2 | additional subject area (further specs) | <additionalSubjectAreaName> | 
-+===+===+===+
-| **8. | resource** (type of data) | <resource> | 
-| 8.1 | resource type | <resourceType> | 
-+===+===+===+
-|**9.| rights** (license) | <rights> | 
-|9.1| controlled rights | <controlledRights> | 
-|9.2| additional rights  | <additionalRights> | 
-+===+===+===+
-|**10. | rightsholder** | <rightsholder> | 
-+---+---+---+
-
-
-
-
+The following paragraphs will explain the most important and mandatory fields.
 
 Persistent identifier
 =====================
-The persistent identifier is an automatically filled ID. On the right side you can chose between an RADAR-ID and a DOI (Figure 5.1). The DOI is recommended for planned data publication wheras the RADAR-ID is recommended if you plan to archive a dataset without any publication.
+**The persistent identifier is an automatically filled ID by RADAR**. On the right side you can chose between an RADAR-ID and a DOI (Figure 5.1). The DOI is recommended for planned data publication wheras the RADAR-ID is recommended if you plan to archive a dataset without any publication.
 You optional can add some alternate identifier which means for example to add IDs from e.g. other repositories or you can an related identifier which basically is e.g. an ID from journal publication related to the dataset or any documentation, data paper or citation of the dataset. You can link your datasaet to a related publication with the related identifier.
 
 Creater/Author 
 ==============
-This is the person who is responsible for the content of the research data. In generel it is the person who has produced the data but it could be the name of a institution or consortium. For the latter hit the "Switch to institution form" button (Figure 5.2). Assuming you're the person who will be responsible for the data set, fill out your name, your `ORCID iD <https://orcid.org/>`_ and add you're institute which might be suggested due to the current workspace in which you're authorized as subcurator. On the righthand side of the form, you can see an button to add other authors if needed (Figure 5.3). 
+This is the person who is responsible for the content of the research data. In general it is the person who has produced the data but it could be the name of a institution or consortium as well. For the latter hit the "Switch to institution form" button (Figure 5.2). Assuming you're the person who will be responsible for the data set, fill out your name, your `ORCID iD <https://orcid.org/>`_ and add you're institute which might be suggested due to the current workspace in which you're authorized as subcurator. On the righthand side of the form, you can see an button to add other authors if needed (Figure 5.3). 
 
-Below the author form you can add additional contributors to the data. After opening up the contributor form you can add more contruibutors by clicking the + button at the right side of the form (Figure 5.4). In general you have at many forms additional options below the minimum needed form. 
+Persons should be added with "family name, given name" and names, which are not coverd in latin latters should be transcribed according to ALA-LC scheme. 
+
+Below the author form you can add additional contributors to the data. After opening up the contributor form you can add more contruibutors by clicking the + button at the right side of the form (Figure 5.4). In general you can as many additional forms as you need below the mendatory form. 
 
 Title
 =====
@@ -72,19 +34,24 @@ The title is basically a short term to describe your data set properly. Below th
 
 Publisher
 =========
-Since you'll archive or publish the data at RADAR4KIT, the Karlsruhe Institute of Technology is the organisation for publishing the resource. There might be others if there is some collaborative work with other organizations or other published datasets which belongs to your dataset. 
+Since you'll archive or publish the data at RADAR4KIT, the Karlsruhe Institute of Technology is the organisation for publishing the resource. There might be others if there is some collaborative work with other organizations or other published datasets which belongs to your dataset. If the publisher is represented by a person, the name should be follow the name format "family name, given name".
 
 Production year
 ===============
-Production year is the year when the data was created. It can also be a timerange of several years, in this case give the time range from the first to the last year of the data production.
+Production year is the year when the data was created. It can also be a timerange of several years, in this case give the time range from the first to the last year of the data production. If format of the year should be `YYYY` or in case of a time period `YYYY-YYYY`. If the year is unkown, insert "unknown" instead. 
+
+Publication year
+================
+The publication year will be filled in automatically. 
+
 
 Subject areas 
 =============
-The subject area basically means the research field in which the dataset fits most. In case of the Institute of Meteorolgy and Climate Research it fits most of the time to either "Computer Science", "Environmental Science", "Geological Science" or "Physics". If you need a free text to describe your subject area, select "Others". You can also add additional subject areas if your data set fits into two or more research areas. 
+The subject area basically means the research field in which the dataset fits most. In case of the Institute of Meteorology and Climate Research it fits most of the time to either "Computer Science", "Environmental Science", "Geological Science" or "Physics". If you need a free text to describe your subject area, select "Others". You can also add additional subject areas if your data set fits into two or more research areas. 
 
 Resource type
 =============
-Resource type describes the content of the resource (e.g. images, soundfiles etc.). For the resource type are a few optional and also highly recommended fields available. Escpecially the "Geolocation" is really important. You can define a model area with a region or just a location of your sensor system by switching to the point form by clicking the "Switch to point reference" button. Once you've added the geolocation successfully, you'll see the area of investigation now in the tab "Technical Metadata" as well. With the "Data source" you can describe what kind of data it is (e.g. model data, observation data etc.). And for respecting the `FAIR Data Principles <https://www.go-fair.org/fair-principles/>`_ mentioned above, it is cruical to mention and link the "software used" for creating the data set. You can go into detailes using the "Data processing" field. If the dataset is post-processed in any kind, you can exactly tell what methods you've applied to the raw dataset to achieve the current and published dataset. 
+Resource type describes the content of the resource (e.g. images, soundfiles, model data, software etc.). For the resource type are a few optional and also highly recommended fields available. Escpecially the "Geolocation" is really important. You can define a model area with a region or just a location of your sensor system by switching to the point form by clicking the "Switch to point reference" button. Once you've added the geolocation successfully, you'll see the area of investigation now in the tab "Technical Metadata" as well. With the "Data source" you can describe what kind of data it is (e.g. model data, observation data etc.). And for respecting the `FAIR Data Principles <https://www.go-fair.org/fair-principles/>`_ mentioned above, it is cruical to mention and link the "software used" for creating the data set. You can go into detailes using the "Data processing" field. If the dataset is post-processed in any kind, you can exactly tell what methods you've applied to the raw dataset to achieve the current and published dataset. 
 
 Rights statement for the dataset
 ================================
