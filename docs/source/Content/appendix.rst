@@ -6,42 +6,45 @@ Basic metadata scheme at RADAR .XML
 
 .. code-block:: xml
     <xs:schema targetNamespace="http://radar-service.eu/schemas/descriptive/radar/v09/radar-dataset" elementFormDefault="qualified">
-<xs:import namespace="http://radar-service.eu/schemas/descriptive/radar/v09/radar-elements" schemaLocation="RadarElements.xsd"/>
-<xs:element name="radarDataset">
-<xs:complexType>
-<xs:sequence>
-<xs:element ref="re:identifier"/>
-<xs:element ref="re:alternateIdentifiers" minOccurs="0"/>
-<xs:element ref="re:relatedIdentifiers" minOccurs="0"/>
-<xs:element ref="re:creators"/>
-<xs:element ref="re:contributors" minOccurs="0"/>
-<xs:element ref="re:title"/>
-<xs:element ref="re:additionalTitles" minOccurs="0"/>
-<xs:element ref="re:descriptions" minOccurs="0"/>
-<xs:element ref="re:keywords" minOccurs="0"/>
-<xs:element ref="re:publishers"/>
-<xs:element ref="re:productionYear"/>
-<xs:element ref="re:publicationYear" minOccurs="0"/>
-<xs:element ref="re:language" minOccurs="0"/>
-<xs:element ref="re:subjectAreas"/>
-<xs:element ref="re:resource"/>
-<xs:element ref="re:geoLocations" minOccurs="0"/>
-<xs:element ref="re:dataSources" minOccurs="0"/>
-<xs:element ref="re:software" minOccurs="0"/>
-<xs:element ref="re:processing" minOccurs="0"/>
-<xs:element ref="re:rights"/>
-<xs:element ref="re:rightsHolders"/>
-<xs:element ref="re:relatedInformations" minOccurs="0"/>
-<xs:element ref="re:fundingReferences" minOccurs="0"/>
-</xs:sequence>
-</xs:complexType>
-</xs:element>
-</xs:schema>
+        <xs:import namespace="http://radar-service.eu/schemas/descriptive/radar/v09/radar-elements" schemaLocation="RadarElements.xsd"/>
+        <xs:element name="radarDataset">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element ref="re:identifier"/>
+                    <xs:element ref="re:alternateIdentifiers" minOccurs="0"/>
+                    <xs:element ref="re:relatedIdentifiers" minOccurs="0"/>
+                    <xs:element ref="re:creators"/>
+                    <xs:element ref="re:contributors" minOccurs="0"/>
+                    <xs:element ref="re:title"/>
+                    <xs:element ref="re:additionalTitles" minOccurs="0"/>
+                    <xs:element ref="re:descriptions" minOccurs="0"/>
+                    <xs:element ref="re:keywords" minOccurs="0"/>
+                    <xs:element ref="re:publishers"/>
+                    <xs:element ref="re:productionYear"/>
+                    <xs:element ref="re:publicationYear" minOccurs="0"/>
+                    <xs:element ref="re:language" minOccurs="0"/>
+                    <xs:element ref="re:subjectAreas"/>
+                    <xs:element ref="re:resource"/>
+                    <xs:element ref="re:geoLocations" minOccurs="0"/>
+                    <xs:element ref="re:dataSources" minOccurs="0"/>
+                    <xs:element ref="re:software" minOccurs="0"/>
+                    <xs:element ref="re:processing" minOccurs="0"/>
+                    <xs:element ref="re:rights"/>
+                    <xs:element ref="re:rightsHolders"/>
+                    <xs:element ref="re:relatedInformations" minOccurs="0"/>
+                    <xs:element ref="re:fundingReferences" minOccurs="0"/>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+    </xs:schema>
 
 
 
 Example Radar4KIT .XML
 ======================
+
+.. important::
+    This XML scheme is meant to be the scheme for direct import into Radar4KIT.
 
 .. code-block:: xml
 
