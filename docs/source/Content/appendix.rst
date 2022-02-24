@@ -4,7 +4,7 @@ Appendix
 Basic metadata scheme at RADAR .XML
 ===================================
 
-.. code-block:: xml
+.. code-block:: 
     <xs:schema targetNamespace="http://radar-service.eu/schemas/descriptive/radar/v09/radar-dataset" elementFormDefault="qualified">
         <xs:import namespace="http://radar-service.eu/schemas/descriptive/radar/v09/radar-elements" schemaLocation="RadarElements.xsd"/>
         <xs:element name="radarDataset">
