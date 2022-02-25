@@ -1,10 +1,10 @@
 Appendix 
 ++++++++
 
-Basic metadata scheme at RADAR .XML
-===================================
+Basic metadata list in RADAR4KIT
+================================
 
-.. code-block:: 
+.. code-block:: html
     <xs:schema targetNamespace="http://radar-service.eu/schemas/descriptive/radar/v09/radar-dataset" elementFormDefault="qualified">
         <xs:import namespace="http://radar-service.eu/schemas/descriptive/radar/v09/radar-elements" schemaLocation="RadarElements.xsd"/>
         <xs:element name="radarDataset">
@@ -37,7 +37,6 @@ Basic metadata scheme at RADAR .XML
             </xs:complexType>
         </xs:element>
     </xs:schema>
-
 
 
 Example Radar4KIT .XML
