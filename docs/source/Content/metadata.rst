@@ -12,8 +12,7 @@ One central task in RADAR is the creation of a metadata schema that will provide
 .. important::
     The mandatory fields of the metadata profile contain the basic requirements for DOI registration according to the `DataCite metadata schema <https://schema.datacite.org/>`_.
 
-
-The following paragraphs will explain the most important and mandatory fields.
+You can find a full documentation of all metadata fields within this scheme in this `Link <https://radar.products.fiz-karlsruhe.de/sites/default/files/radar/docs/info/RADAR_Metadaten_Dokumentation_v09.pdf>`_ , unfortunately this documention is only available in german. However, the following paragraphs will explain aqnd summarize the most important and mandatory fields in short.
 
 Persistent identifier
 =====================

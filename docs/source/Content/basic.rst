@@ -4,17 +4,20 @@ Basic information about RADAR4KIT
 RADAR4KIT allows you to compile research data from completed scientific studies and projects into data packages, 
 describe them with metadata, store and archive them permanently, or make them publicly accessible as needed. Published data are assigned a persistent 
 identifier (DOI) and can thus be found internationally and are also referenced in `KITopen <https://www.bibliothek.kit.edu/english/kitopen.php>`_ . 
-RADAR4KIT represents a generic offer of KIT in addition to the established subject repositories, which can be found e.g. in `re3data.org <https://re3data.org>`_.
+RADAR4KIT represents a generic offer of KIT in addition to the established subject repositories, which can be found e.g. in `re3data.org <https://re3data.org>`_. It also responds to the new requirements of the target group and the dynamically developing science policy framework in the field of research data management, for example, also within the framework of the NFDI (National Research Data Infrastructure). 
 
 The operator is the `Karlsruhe Institute of Technology <https://kit.edu>`_ (KIT). RADAR4KIT is based on the `RADAR <https://radar.products.fiz-karlsruhe.de/en>`_ 
-service offered by FIZ Karlsruhe. The data is stored exclusively on KIT's IT infrastructure at the Steinbuch Centre for Computing (SCC). 
+service offered by the FIZ Karlsruhe. The data is stored exclusively on KIT's IT infrastructure at the Steinbuch Centre for Computing (SCC). 
+
+You can find all the information about the RADAR service by visiting `<https://radar.products.fiz-karlsruhe.de/en>`_ . However the following documentation summs up the important aspects of usage the service at the IMK and figure out the most important points in short.
 
 
 Registration and user profiles
 ==============================
 
-Since RADAR4KIT is an online service it can be used exclusively via the Internet. All KIT researchers can log in to RADAR4KIT via their KIT account (Shibboleth) using 
-the web frontend of `RADAR4KIT <www.radar.kit.edu>`_. In addition, further accounts for KIT-externals can be created in special cases. 
+Since RADAR4KIT is an online service it can be used exclusively via the Internet. All KIT researchers can log in to RADAR4KIT via their KIT account (Shibboleth) using the web frontend of `RADAR4KIT <www.radar.kit.edu>`_. In addition, further accounts for KIT-externals can be created in special cases. 
+
+In addition to that, there is an RADAR API available for publishing (or archieving) bigger file sizes as mentioned in the next sub-section. 
 
 
 RADAR4KIT usage and numbers
@@ -22,7 +25,7 @@ RADAR4KIT usage and numbers
 
 RADAR4KIT can be used via a web-based user interface with current web browsers or via the REST-based `RADAR API <https://radar.products.fiz-karlsruhe.de/de/radarfeatures/radar-api>`_ . The data provider (can be "subcurator" or "curator") can create data packages within the workspace assigned to him and assign individual files or file archives (.tar, .zip, .tgz, tar.gz, .tar.bz2) containing multiple files. The data provider also can add or delete individual data via the user interface. With RADAR4KIT the **maximum files size is at about 200GB** for archiving and publishing data. The 200GB refers to both single or multiple files and thus representing the current maximum of possible repository size. However since the **web browsers** start stuggeling on resources at file sizes of **10GB** and more you should use the `RADAR API <https://radar.products.fiz-karlsruhe.de/de/radarfeatures/radar-api>`_ to upload bigger file sizes!
 
-The data provider is also responsible for describing the data packages with proper metadata following certain standards. For this purpose, the service provides a form on the RADAR4KIT platform. Alternatively, it is possible to create the metadata offline as an XML file (see Appendix for an example) and then upload it to the RADAR4KIT platform. The data provider can also use the RADAR4KIT platform to download a template for a corresponding XML file as well as an XML schema for validating the metadata in the latest version. 
+The data provider is also responsible for describing the data packages with proper metadata following certain standards. For this purpose, the service provides a form for the usage at KIT within the RADAR4KIT platform. Alternatively, it is possible to create the metadata as an XML file (see Appendix for an example file) and then upload it to the RADAR4KIT platform. The data provider can also use the RADAR4KIT platform to download a template for a corresponding XML file as well as an XML schema for validating the metadata in the latest version. 
 
 
 
@@ -31,10 +34,10 @@ Retention period and immutability of data packages
 RADAR4KIT enables the permanent and secured storage of data packages over a defined period of time ("retention period"). 
 For archived data packets, the data provider defines a retention period. The actual retention period for archived data packets may 
 be shorter if the RADAR4KIT service is discontinued before the retention period expires. No retention period needs to be selected for 
-published data packages because this period is basically unlimited. KIT guarantees an actual retention period of at least 10 years.
+published data packages since this period is basically unlimited. The KIT guarantees a current retention period of at least 10 years.
 During the retention period, RADAR4KIT does not modify the stored data packets any more, but only ensures their physical preservation 
 ("bitstream preservation"). Accordingly, RADAR4KIT guarantees neither the permanent usability nor the interpretability of the data contained 
-in a data package, as these depend on the availability of the data formats selected by the data provider and corresponding programs for their 
+in a data package, as these depend on the availability of the data formats selected by the data provider and corresponding software for their 
 interpretation.
 
 Data packages in permanent storage can no longer be modified. Deletions can be carried out by the administrator in justified exceptional cases
