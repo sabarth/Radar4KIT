@@ -1,8 +1,7 @@
 Edit metadata
 +++++++++++++
-Once you've uploaded your file or archive, you'll now be able to edit the metadata by clicking the ``Edit Metadata`` button (`Figure 3.2`_) on the right side. There you find a bunch of fields which you have to fill out (All fields marked with a * are crucial and have to be filled out!). But first, some basic information about the metadata.
+Once you've uploaded your file or archive, you'll now be able to edit the metadata by clicking the ``Edit Metadata`` button (*Figure 3.2*) on the right side. There you find a bunch of fields which you have to fill out (All fields marked with a * are crucial and have to be filled out!). But first, some basic information about the metadata.
 
-:ref:`Reviewing research data<Reviewing research data>`
 .. figure:: /images/radar4kit_edit_metadata_3.png
     :width: 100 %
 

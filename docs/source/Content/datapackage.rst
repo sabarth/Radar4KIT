@@ -31,7 +31,7 @@ You can also choose the checksum option (*Figure 2.4*). Checksum is a MD5 hash v
 .. DANGER:: 
     If you plan to upload several GBs of data, calculating the checksum via browser is NOT recommended since it will take a lot of time or even crash the hole upload process!
 
-.. _Figure 3.2:
+
 .. figure:: /images/radar4kit_edit_metadata_1.png
     :width: 100 %
 
