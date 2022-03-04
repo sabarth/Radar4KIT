@@ -6,7 +6,7 @@ So, how do you create a data package once you get your authorization as subcurat
 .. figure:: /images/radar4kit_create_dataset_1.png
     :width: 100 %
     
-    *Figure 1: Create dataset*
+    *Create dataset*
 
 You can choose between two options, 
 
@@ -21,7 +21,7 @@ An empty dataset might be useful if you wanna reserve a DOI for a later time, bu
 .. figure:: /images/radar4kit_create_dataset_2.png
     :width: 100 %
     
-    *Figure 2: Upload dataset*
+    *Upload dataset*
 
 
 You can choose to optionally unpack the archive-files during the upload (*Figure 2.3*), the file directory structure remains unchanged. You can add individual files to the dataset later on while the dataset remains in status "pending". This might be useful, if you need to change the dataset afterwards (e.g. after a reviewing process). 
@@ -35,11 +35,11 @@ You can also choose the checksum option (*Figure 2.4*). Checksum is a MD5 hash v
 .. figure:: /images/radar4kit_edit_metadata_1.png
     :width: 100 %
 
-    *Figure 3: Dataset overview*
+    *Dataset overview*
 
 After uploading the files you get to the next screen. You can now browse your repository for metadata, content and technical metadata (*Figure 3.1*). The ``RADAR Metadata`` is most important to fill out (see next section). Any information about the data will be covered here later. The tab ``Content`` allows you to browse your uploaded dataset (*Figure 4*). If you've uploaded an archive and if you have not hit the "automatically unpack" box while uploading the file, you might see only a folder here. Clicking the folder will unpack the archive, and you can see all files inside your archive. You can add files here to the repository later while the status is pending by clicking the button in the top right corner (*Figure 4*). The tab ``Technical Metadata`` is just an information about the creator of the dataset and who was the last editing person. 
 
 .. figure:: /images/radar4kit_edit_metadata_2.png
     :width: 100 %
 
-    *Figure 4: Content of dataset*
+    *Content of dataset*

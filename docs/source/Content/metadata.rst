@@ -5,7 +5,7 @@ Once you've uploaded your file or archive, you'll now be able to edit the metada
 .. figure:: /images/radar4kit_edit_metadata_3.png
     :width: 100 %
 
-    *Figure 5: Edit metadata form*
+    *Edit metadata form*
 
 One central task in RADAR is the creation of a metadata schema that will provide both interdisciplinary, centralized record of the research data archived and published in RADAR, and data archived and published in RADAR as well as fulfilling the subject-specific requirements for searching and subsequent use of these data. The following metadata profile comprises 10 mandatory fields, which together represent the general, descriptive part of the profile, as well as 13 optional fields, which also include the subject-specific descriptions of the datasets. 
 

@@ -6,11 +6,11 @@ After you have successfully published a data set, you unfortunately have to manu
 .. figure:: /images/radar4kit_kit_open_1.png
     :width: 100 %
 
-    *Figure 6: Add data publication to KITopen*
+    *Add data publication to KITopen*
 
 If you have some external data publications (e.g. from prior your employment at KIT) scroll down to the ``KIT-related information`` (*Figure 7*) and fill out the POF structure and the related project form. 
 
 .. figure:: /images/radar4kit_kit_open_2.png
     :width: 100 %
     
-    *Figure 7: Form for external data publications* 
+    *Form for external data publications* 
