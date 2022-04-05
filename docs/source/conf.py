@@ -32,6 +32,8 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
+html_logo = "_static/KITlogo_farbe-RGB_englisch.jpg"
+
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
 
