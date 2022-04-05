@@ -32,7 +32,7 @@ templates_path = ['_templates']
 
 html_theme = 'sphinx_rtd_theme'
 
-html_logo = "_static/kit_logo_en.jpg"
+html_logo = "_static/radar4kit_logo.png"
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
