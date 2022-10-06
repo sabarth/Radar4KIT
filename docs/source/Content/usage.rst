@@ -8,6 +8,7 @@ The curators can upload, edit, archive and, if necessary, publish research data 
 
 In practice that means, if you want to publish data at RADAR4KIT, go to the webpage `www.radar.kit.edu <https://radar.kit.edu>`_ and press the login button. Choose KIT from the "List of Institutions" and go on with the well known shibboleth login by using your KIT account. In the next step write an email to the curator of your workspace (Department) and ask for authorization as subcurator at RADAR4KIT. The curators at the four departments at IMK are:
 
+* `Romy Fösig <romy.foesig@kit.edu?subject=Authorization%20as%20subcurator%20at%20RADAR4KIT>`_ and
 * `Nicole Büttner <nicole.buettner@kit.edu?subject=Authorization%20as%20subcurator%20at%20RADAR4KIT>`_ for the IMK-AAF,
 * `Sabine Barthlott <sabine.barthlott@kit.edu?subject=Authorization%20as%20subcurator%20at%20RADAR4KIT>`_ for the IMK-ASF,
 * `Christof Lorenz <christof.lorenz@kit.edu?subject=Authorization%20as%20subcurator%20at%20RADAR4KIT>`_ for the IMK-IFU and
