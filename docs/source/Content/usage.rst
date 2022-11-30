@@ -10,7 +10,8 @@ In practice that means, if you want to publish data at RADAR4KIT, go to the webp
 
 * `Romy Fösig <romy.foesig@kit.edu?subject=Authorization%20as%20subcurator%20at%20RADAR4KIT>`_ and
 * `Nicole Büttner <nicole.buettner@kit.edu?subject=Authorization%20as%20subcurator%20at%20RADAR4KIT>`_ for the IMK-AAF,
-* `Sabine Barthlott <sabine.barthlott@kit.edu?subject=Authorization%20as%20subcurator%20at%20RADAR4KIT>`_ for the IMK-ASF,
+* `Sabine Barthlott <sabine.barthlott@kit.edu?subject=Authorization%20as%20subcurator%20at%20RADAR4KIT>`_ and
+* `Tobias Kerzenmacher <tobias.kerzenmacher@kit.edu?subject=Authorization%20as%20subcurator%20at%20RADAR4KIT>`_ for the IMK-ASF,
 * `Christof Lorenz <christof.lorenz@kit.edu?subject=Authorization%20as%20subcurator%20at%20RADAR4KIT>`_ for the IMK-IFU and
 * `Manuel Schmidberger <manuel.schmidberger@kit.edu?subject=Authorization%20as%20subcurator%20at%20RADAR4KIT>`_ for the IMK-TRO.
 
